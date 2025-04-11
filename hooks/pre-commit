@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+deno lint
+deno test -A
+deno test -A --coverage

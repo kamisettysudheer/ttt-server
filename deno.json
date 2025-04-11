@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "hono": "npm:hono@^4.7.5"
+  },
+  "tasks": {
+    "start": "deno run -A main.js",
+    "test": "deno test --allow-read --allow-write"
+  },
+  "test": {
+    "include": ["src/*", "test/*"]
+  }
+}
