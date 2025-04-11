@@ -1,4 +1,4 @@
-import { assertEquals, assertFalse } from "jsr:@std/assert";
+import { assertEquals } from "jsr:@std/assert";
 import { beforeEach, describe, it } from "jsr:@std/testing/bdd";
 import { createApp } from "../src/app.js";
 import { queueManager } from "../src/models/waitingQueue.js";
