@@ -40,7 +40,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "kamisettysu-ttt-server-10"
-          entrypoint: "src/server.js"
+          entrypoint: "main.js"
           root: "."
 
       - name: Run tests
