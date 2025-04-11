@@ -39,7 +39,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "ashishkumar-ttt-server-66"
+          project: "kamisettysu-ttt-server-10"
           entrypoint: "src/server.js"
           root: "."
 
